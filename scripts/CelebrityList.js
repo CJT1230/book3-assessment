@@ -6,7 +6,7 @@ export const Celebrities = () => {
     let html = "<ol>"
 
     for (const star of celebrities) {
-        html += `<li id="star--${celebrity.id}">${celebrity.name}</li>`
+        html += `<li id = "star--${star.id}">${star.name}</li>`
     }
 
     html += "</ol>"

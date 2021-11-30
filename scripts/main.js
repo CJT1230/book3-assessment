@@ -15,6 +15,7 @@ const applicationHTML = `
         <h2>Celebrities</h2>
         ${Celebrities()}
     </section>
+    
 </article>
 
 <article class="assignments">

@@ -36,7 +36,7 @@ const database = {
         sport: "Baseball"
     }, {
         id: 8,
-        mane: "Tiffanie Tubby",
+        name: "Tiffanie Tubby",
         email: "ttubby7@intel.com",
         sport: "Basketball"
     }, {
@@ -101,4 +101,14 @@ const database = {
         celebrityId: 4,
         wish: "Put out a fire as a fireman after riding on the truck with the siren on"
     }]
+}
+
+export const getCelebrities = () => {
+    const copyOfCelebrities = [...database.celebrities]
+    return copyOfCelebrities
+}
+
+export const getChildren = () => {
+    const copyofChildren = [...database.children]
+    return copyofChildren
 }

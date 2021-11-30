@@ -7,7 +7,9 @@ const findCelebrityMatch = (kidObject, celebrityArray) => {
     let celebrity = null
 
     for (const celebrity of celebrityArray) {
-
+        if (celebrity.id === kids.celebritiyId) {
+            celebrity = celebrity.name
+        }
     }
 
     return celebritiy
