@@ -4,7 +4,7 @@ const kids = getChildren()
 const celebrities = getCelebrities()
 
 const findCelebrityMatch = (kidObject, celebrityArray) => {
-    let celebrity = null
+    let celebrity = ""
 
     for (const celebrity of celebrityArray) {
         if (celebrity.id === kids.celebritiyId) {

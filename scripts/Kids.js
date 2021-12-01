@@ -13,3 +13,15 @@ export const Kids = () => {
     return html
 }
 
+document.addEventListener("click", (clickEvent) => {
+    const tClicked = clickEvent.target;
+    if (tClicked.id.startsWith("kid--")) {
+        const [, kidId] = tClicked.id.split("--");
+
+        for (const kid of children) {
+            if (kid.id === parseInt(kidId)) {
+                window.alert(`${kid.name}'s wish is to ${kid.wish}`)
+            }
+        }
+    }
+})
