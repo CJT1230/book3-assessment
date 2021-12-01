@@ -13,7 +13,7 @@ const database = {
         id: 3,
         name: "Anna Bowton",
         email: "abowton2@wisc.edu",
-        spōrt: "Golf"
+        sport: "Golf"
     }, {
         id: 4,
         name: "Hunfredo Drynan",
@@ -69,7 +69,7 @@ const database = {
         id: 4,
         name: "Karine McKennan",
         celebrityId: 6,
-        wissh: "Drive a race car"
+        wish: "Drive a race car"
     }, {
         id: 5,
         name: "Cissy Weavers",
